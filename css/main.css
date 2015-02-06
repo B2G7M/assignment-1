@@ -2,24 +2,26 @@ html {
 	box-sizing: border-box;
 	height: 100vh;
 	font-family: 'georgia', serif;
-	padding-left: .7em;
-}
+	padding-left: 0em;}
 
 *, *::before, *::after {
-	box-sizing: inherit;
-}
+	box-sizing: inherit;}
 
 header{
 	background-color: #ffe524;
 	text-align: center;
 	display:block;
-	padding: .25em;	
-}
+	padding: .25em;}
+
+
 
 h1, h2, h3{
 	font-family: 'Sigmar One', cursive;
-	color: #b32f52;
-}
+	color: #b32f52;}
+
+h2{
+	border-top: 3px solid;
+	border-color: #ffe524;}
 
 figure{
 	background-color: #fffce0;
@@ -27,25 +29,21 @@ figure{
 	border-radius: .7em;
 	padding:0.5em;
 	text-align: center;
-	font-style: italic;
+	font-style: italic;}
 
-}
-
-img {width:100%;}
+img {
+	width:100%;}
 
 a:hover{
-	background-color: #cc3865;
-}
+	background-color: #cc3865;}
 
 nav li {
-	display: inline-block;
-}
+	display: inline-block;}
 
 nav ol{
 	padding: 0;
 	text-align: center;
-	list-style: none;
-}
+	list-style: none;}
 
 nav a {
 	display: inline-block;
@@ -54,12 +52,42 @@ nav a {
 	text-decoration: none;
 	margin: .1em;
 	border-radius: .45em;
-	background-color: #b2a215;	
-}
+	background-color: #b2a215;}
+
 body{
-	margin: 0;
-}
+	margin: 0;}
+
 h1{
 	font-size: 5em;
+	text-align: center;}
+
+footer {
+	margin: 0;
+	padding: 2rem;
+	background-color: #ffe524;
+	text-align: center;}
+
+.per{
+	font-style: italic;}
+
+div{
+	padding-left: 1em;}
+
+dt{
+	font-weight: bold;}
+
+dd{
+	margin: 0.2em 0 0.2em 0;}
+
+blockquote{
+	font-size: 1.5em;
+	font-style: italic;
 	text-align: center;
-}
+	color:  #b2a215 }
+
+
+.pare{
+	font-size: 3em;
+	font-style: italic;
+	text-align: center;
+	color:  #b2a215 }
