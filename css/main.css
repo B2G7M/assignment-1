@@ -2,6 +2,7 @@ html {
 	box-sizing: border-box;
 	height: 100vh;
 	font-family: 'georgia', serif;
+	padding-left: .7em;
 }
 
 *, *::before, *::after {
@@ -12,7 +13,7 @@ header{
 	background-color: #ffe524;
 	text-align: center;
 	display:block;
-	padding: .25em;
+	padding: .25em;	
 }
 
 h1, h2, h3{
@@ -22,9 +23,9 @@ h1, h2, h3{
 
 figure{
 	background-color: #fffce0;
-	border: 3px solid #c5b844;
+	border: 0.2em solid #c5b844;
 	border-radius: .7em;
-	padding:1em;
+	padding:0.5em;
 	text-align: center;
 	font-style: italic;
 
@@ -33,5 +34,32 @@ figure{
 img {width:100%;}
 
 a:hover{
-	color: #cc3865;
+	background-color: #cc3865;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav ol{
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+
+nav a {
+	display: inline-block;
+	padding: 1em;
+	color: white;
+	text-decoration: none;
+	margin: .1em;
+	border-radius: .45em;
+	background-color: #b2a215;	
+}
+body{
+	margin: 0;
+}
+h1{
+	font-size: 5em;
+	text-align: center;
 }
