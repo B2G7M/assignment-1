@@ -1,0 +1,37 @@
+html { 
+	box-sizing: border-box;
+	height: 100vh;
+	font-family: 'georgia', serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+header{
+	background-color: #ffe524;
+	text-align: center;
+	display:block;
+	padding: .25em;
+}
+
+h1, h2, h3{
+	font-family: 'Sigmar One', cursive;
+	color: #b32f52;
+}
+
+figure{
+	background-color: #fffce0;
+	border: 3px solid #c5b844;
+	border-radius: .7em;
+	padding:1em;
+	text-align: center;
+	font-style: italic;
+
+}
+
+img {width:100%;}
+
+a:hover{
+	color: #cc3865;
+}
