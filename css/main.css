@@ -13,8 +13,6 @@ header{
 	display:block;
 	padding: .25em;}
 
-
-
 h1, h2, h3{
 	font-family: 'Sigmar One', cursive;
 	color: #b32f52;}
@@ -84,7 +82,6 @@ blockquote{
 	font-style: italic;
 	text-align: center;
 	color:  #b2a215 }
-
 
 .pare{
 	font-size: 3em;
